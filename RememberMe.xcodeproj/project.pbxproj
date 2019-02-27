@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		4DC97CD1220072DC00D36CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC97CD0220072DC00D36CBF /* AppDelegate.swift */; };
-		4DC97CD3220072DC00D36CBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC97CD2220072DC00D36CBF /* ViewController.swift */; };
+		4DC97CD3220072DC00D36CBF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC97CD2220072DC00D36CBF /* WelcomeViewController.swift */; };
 		4DC97CD6220072DC00D36CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC97CD4220072DC00D36CBF /* Main.storyboard */; };
 		4DC97CD8220072DE00D36CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC97CD7220072DE00D36CBF /* Assets.xcassets */; };
 		4DC97CDB220072DE00D36CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC97CD9220072DE00D36CBF /* LaunchScreen.storyboard */; };
+		4DC97CE92200744000D36CBF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC97CE82200744000D36CBF /* LoginViewController.swift */; };
+		4DC97CEB22008F9400D36CBF /* MainTicketsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC97CEA22008F9400D36CBF /* MainTicketsTableViewController.swift */; };
+		4DC97CED2200919A00D36CBF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC97CEC2200919A00D36CBF /* RegisterViewController.swift */; };
+		4DC97CF022009A5200D36CBF /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC97CEF22009A5200D36CBF /* ItemsTableViewController.swift */; };
+		4DC97CF22200B32900D36CBF /* background-rememberMe2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DC97CF12200B32800D36CBF /* background-rememberMe2.jpg */; };
+		4DC97CF42200B33000D36CBF /* backgroud-rememberMe3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC97CF32200B33000D36CBF /* backgroud-rememberMe3.png */; };
+		4DC97CF62200B35000D36CBF /* Background_RememberMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC97CF52200B35000D36CBF /* Background_RememberMe.png */; };
+		4DC97CF82200BA5A00D36CBF /* postit-rememberMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC97CF72200BA5A00D36CBF /* postit-rememberMe.png */; };
+		4DC97CFA2200E74800D36CBF /* SwipeCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC97CF92200E74800D36CBF /* SwipeCellTableViewController.swift */; };
+		4DC97CFC2200EA0700D36CBF /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC97CFB2200EA0700D36CBF /* Tickets.swift */; };
+		4DC97CFE2200EB0300D36CBF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC97CFD2200EB0300D36CBF /* Item.swift */; };
+		4DC97D002200F89700D36CBF /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC97CFF2200F89700D36CBF /* Users.swift */; };
+		4DE372C5220B444E00FB2D87 /* RegisterConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE372C4220B444E00FB2D87 /* RegisterConfirmationViewController.swift */; };
+		F1C8C1221A5A5BC9E1470F8D /* Pods_RememberMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDB101874EC2F1E0980533A /* Pods_RememberMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A2E851496E4AA4FDB6D6677 /* Pods-RememberMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RememberMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RememberMe/Pods-RememberMe.debug.xcconfig"; sourceTree = "<group>"; };
 		4DC97CCD220072DC00D36CBF /* RememberMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RememberMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC97CD0220072DC00D36CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DC97CD2220072DC00D36CBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DC97CD2220072DC00D36CBF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		4DC97CD5220072DC00D36CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DC97CD7220072DE00D36CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DC97CDA220072DE00D36CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DC97CDC220072DE00D36CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC97CE82200744000D36CBF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4DC97CEA22008F9400D36CBF /* MainTicketsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTicketsTableViewController.swift; sourceTree = "<group>"; };
+		4DC97CEC2200919A00D36CBF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4DC97CEF22009A5200D36CBF /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		4DC97CF12200B32800D36CBF /* background-rememberMe2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-rememberMe2.jpg"; sourceTree = "<group>"; };
+		4DC97CF32200B33000D36CBF /* backgroud-rememberMe3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroud-rememberMe3.png"; sourceTree = "<group>"; };
+		4DC97CF52200B35000D36CBF /* Background_RememberMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background_RememberMe.png; sourceTree = "<group>"; };
+		4DC97CF72200BA5A00D36CBF /* postit-rememberMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "postit-rememberMe.png"; sourceTree = "<group>"; };
+		4DC97CF92200E74800D36CBF /* SwipeCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCellTableViewController.swift; sourceTree = "<group>"; };
+		4DC97CFB2200EA0700D36CBF /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		4DC97CFD2200EB0300D36CBF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4DC97CFF2200F89700D36CBF /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		4DE372C4220B444E00FB2D87 /* RegisterConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterConfirmationViewController.swift; sourceTree = "<group>"; };
+		C41B496D52C05EDAE4A7856E /* Pods-RememberMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RememberMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-RememberMe/Pods-RememberMe.release.xcconfig"; sourceTree = "<group>"; };
+		FFDB101874EC2F1E0980533A /* Pods_RememberMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RememberMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C8C1221A5A5BC9E1470F8D /* Pods_RememberMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +71,8 @@
 			children = (
 				4DC97CCF220072DC00D36CBF /* RememberMe */,
 				4DC97CCE220072DC00D36CBF /* Products */,
+				71F8BB5994ADD0FBC915DC0C /* Pods */,
+				7FDA17F387B4CCB6D2238D7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,100 @@
 		4DC97CCF220072DC00D36CBF /* RememberMe */ = {
 			isa = PBXGroup;
 			children = (
-				4DC97CD0220072DC00D36CBF /* AppDelegate.swift */,
-				4DC97CD2220072DC00D36CBF /* ViewController.swift */,
-				4DC97CD4220072DC00D36CBF /* Main.storyboard */,
-				4DC97CD7220072DE00D36CBF /* Assets.xcassets */,
-				4DC97CD9220072DE00D36CBF /* LaunchScreen.storyboard */,
 				4DC97CDC220072DE00D36CBF /* Info.plist */,
+				4DC97CE22200731C00D36CBF /* Model */,
+				4DC97CE32200732600D36CBF /* View */,
+				4DC97CE42200733000D36CBF /* Controllers */,
+				4DC97CE52200735300D36CBF /* Resources */,
 			);
 			path = RememberMe;
+			sourceTree = "<group>";
+		};
+		4DC97CE22200731C00D36CBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DC97CFB2200EA0700D36CBF /* Tickets.swift */,
+				4DC97CFD2200EB0300D36CBF /* Item.swift */,
+				4DC97CFF2200F89700D36CBF /* Users.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DC97CE32200732600D36CBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4DC97CD9220072DE00D36CBF /* LaunchScreen.storyboard */,
+				4DC97CD4220072DC00D36CBF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4DC97CE42200733000D36CBF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DC97CD0220072DC00D36CBF /* AppDelegate.swift */,
+				4DC97D032201096400D36CBF /* SwipeCell */,
+				4DC97D022201093000D36CBF /* SimpleData */,
+				4DC97D012201091C00D36CBF /* Tables */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4DC97CE52200735300D36CBF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DC97CF72200BA5A00D36CBF /* postit-rememberMe.png */,
+				4DC97CF52200B35000D36CBF /* Background_RememberMe.png */,
+				4DC97CF32200B33000D36CBF /* backgroud-rememberMe3.png */,
+				4DC97CF12200B32800D36CBF /* background-rememberMe2.jpg */,
+				4DC97CD7220072DE00D36CBF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4DC97D012201091C00D36CBF /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				4DC97CEA22008F9400D36CBF /* MainTicketsTableViewController.swift */,
+				4DC97CEF22009A5200D36CBF /* ItemsTableViewController.swift */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
+		4DC97D022201093000D36CBF /* SimpleData */ = {
+			isa = PBXGroup;
+			children = (
+				4DC97CD2220072DC00D36CBF /* WelcomeViewController.swift */,
+				4DC97CE82200744000D36CBF /* LoginViewController.swift */,
+				4DC97CEC2200919A00D36CBF /* RegisterViewController.swift */,
+				4DE372C4220B444E00FB2D87 /* RegisterConfirmationViewController.swift */,
+			);
+			path = SimpleData;
+			sourceTree = "<group>";
+		};
+		4DC97D032201096400D36CBF /* SwipeCell */ = {
+			isa = PBXGroup;
+			children = (
+				4DC97CF92200E74800D36CBF /* SwipeCellTableViewController.swift */,
+			);
+			path = SwipeCell;
+			sourceTree = "<group>";
+		};
+		71F8BB5994ADD0FBC915DC0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A2E851496E4AA4FDB6D6677 /* Pods-RememberMe.debug.xcconfig */,
+				C41B496D52C05EDAE4A7856E /* Pods-RememberMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7FDA17F387B4CCB6D2238D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFDB101874EC2F1E0980533A /* Pods_RememberMe.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DC97CDF220072DE00D36CBF /* Build configuration list for PBXNativeTarget "RememberMe" */;
 			buildPhases = (
+				CC559F405DFA9D5DD48A022F /* [CP] Check Pods Manifest.lock */,
 				4DC97CC9220072DC00D36CBF /* Sources */,
 				4DC97CCA220072DC00D36CBF /* Frameworks */,
 				4DC97CCB220072DC00D36CBF /* Resources */,
+				8CD153DDDB3A677DB7160884 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,7 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC97CF42200B33000D36CBF /* backgroud-rememberMe3.png in Resources */,
 				4DC97CDB220072DE00D36CBF /* LaunchScreen.storyboard in Resources */,
+				4DC97CF62200B35000D36CBF /* Background_RememberMe.png in Resources */,
+				4DC97CF22200B32900D36CBF /* background-rememberMe2.jpg in Resources */,
+				4DC97CF82200BA5A00D36CBF /* postit-rememberMe.png in Resources */,
 				4DC97CD8220072DE00D36CBF /* Assets.xcassets in Resources */,
 				4DC97CD6220072DC00D36CBF /* Main.storyboard in Resources */,
 			);
@@ -130,13 +255,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8CD153DDDB3A677DB7160884 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RememberMe/Pods-RememberMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RememberMe/Pods-RememberMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC559F405DFA9D5DD48A022F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RememberMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4DC97CC9220072DC00D36CBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC97CD3220072DC00D36CBF /* ViewController.swift in Sources */,
+				4DC97CE92200744000D36CBF /* LoginViewController.swift in Sources */,
+				4DC97CFE2200EB0300D36CBF /* Item.swift in Sources */,
+				4DC97D002200F89700D36CBF /* Users.swift in Sources */,
+				4DC97CED2200919A00D36CBF /* RegisterViewController.swift in Sources */,
+				4DC97CF022009A5200D36CBF /* ItemsTableViewController.swift in Sources */,
+				4DC97CD3220072DC00D36CBF /* WelcomeViewController.swift in Sources */,
+				4DE372C5220B444E00FB2D87 /* RegisterConfirmationViewController.swift in Sources */,
+				4DC97CEB22008F9400D36CBF /* MainTicketsTableViewController.swift in Sources */,
 				4DC97CD1220072DC00D36CBF /* AppDelegate.swift in Sources */,
+				4DC97CFA2200E74800D36CBF /* SwipeCellTableViewController.swift in Sources */,
+				4DC97CFC2200EA0700D36CBF /* Tickets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +467,7 @@
 		};
 		4DC97CE0220072DE00D36CBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2E851496E4AA4FDB6D6677 /* Pods-RememberMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +486,7 @@
 		};
 		4DC97CE1220072DE00D36CBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C41B496D52C05EDAE4A7856E /* Pods-RememberMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
